@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="180dp"
+    tools:context=".MyDialog">
+
+    <ImageView
+        android:id="@+id/dialog_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/dialog_textiew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="demo"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/dialog_imageView" />
+    <Button
+        android:id="@+id/close_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLOSE"
+        android:textSize="15sp"
+        android:layout_marginLeft="40dp"
+        android:padding="10dp"
+        android:layout_below="@id/dialog_textiew"
+        android:onClick="closeDialog"/>
+
+
+
+</RelativeLayout>
