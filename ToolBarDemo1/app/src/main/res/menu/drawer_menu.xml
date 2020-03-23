@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="none"
+        android:theme="@style/PopupTheme"
+        >
+        >
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/users"
+            android:title="@string/users" />
+        <item
+            android:id="@+id/about_us"
+            android:title="@string/about_us" />
+        <item
+            android:title=""
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_black_24dp"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/shopping_cart"
+            android:title=""
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>
