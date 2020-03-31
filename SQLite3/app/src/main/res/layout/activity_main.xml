@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#656767"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" android:id="@+id/sub_toolbar"/>
+    <TextView
+        android:id="@+id/textview_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_marginStart="@dimen/textView_marginStart"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginTop="@dimen/textView_marginTop"
+         />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/editext_marginLeft"
+        android:layout_marginLeft="@dimen/editext_marginLeft"
+        android:layout_marginRight="@dimen/edittext_marginRight"
+        android:layout_marginEnd="@dimen/edittext_marginend"
+        android:layout_marginTop="@dimen/editext_marginTop"
+        android:hint="ENTER USERNAME"
+        android:textColorHint="#000000"/>
+    <TextView
+        android:id="@+id/textview_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE NUMBER"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_marginStart="@dimen/textView_marginStart"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginTop="@dimen/textView_marginTop"/>
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/editext_marginLeft"
+        android:layout_marginEnd="@dimen/editext_marginLeft"
+        android:layout_marginLeft="@dimen/editext_marginLeft"
+        android:layout_marginRight="@dimen/edittext_marginRight"
+        android:layout_marginTop="@dimen/editext_marginTop"
+        android:hint="ENTER PHONE NUMBER"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SAVE"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/retrieve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GET ALL"
+        android:textSize="15sp"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SQLite3</string>
+    <string name="id_number">ID NUMBER</string>
+    <string name="hyphen">-</string>
+    <string name="demo">DEMO</string>
+    <string name="username">USERNAME</string>
+    <string name="number">NUMBER</string>
+</resources>

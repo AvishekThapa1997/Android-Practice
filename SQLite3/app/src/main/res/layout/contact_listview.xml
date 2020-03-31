@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#C3ACAC"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AllContactsActivity">
+
+    <TextView
+        android:id="@+id/textview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/id_number"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview_id"
+        android:layout_toEndOf="@id/textview_id"
+        android:layout_toRightOf="@id/textview_id"
+        android:text="@string/hyphen"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/contact_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview_id"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@id/textview_id"
+        android:layout_toRightOf="@id/textview_id"
+        android:padding="5dp"
+        android:text="@string/demo"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview_username"
+        android:layout_alignStart="@id/_id"
+        android:layout_alignLeft="@+id/_id"
+        android:layout_toEndOf="@id/textview_username"
+        android:layout_toRightOf="@id/textview_username"
+        android:text="@string/hyphen"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textview_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_id"
+        android:layout_alignStart="@id/textview_id"
+        android:layout_alignLeft="@id/textview_id"
+        android:padding="5dp"
+        android:text="@string/username"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/contact_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview_username"
+        android:layout_alignStart="@id/contact_id"
+        android:layout_alignLeft="@id/contact_id"
+        android:layout_toEndOf="@id/textview_username"
+        android:layout_toRightOf="@id/textview_username"
+        android:padding="5dp"
+        android:text="@string/demo"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textview_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_username"
+        android:layout_alignStart="@id/textview_username"
+        android:layout_alignLeft="@id/textview_username"
+        android:padding="5dp"
+        android:text="@string/number"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview_number"
+        android:layout_alignStart="@id/_id"
+        android:layout_alignLeft="@id/_id"
+        android:layout_toEndOf="@id/textview_number"
+        android:layout_toRightOf="@id/textview_number"
+        android:text="@string/hyphen"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/contact_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview_number"
+        android:layout_alignStart="@id/contact_user"
+        android:layout_alignLeft="@id/contact_user"
+        android:layout_toEndOf="@id/textview_number"
+        android:layout_toRightOf="@id/contact_number"
+        android:padding="5dp"
+        android:text="@string/demo"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_number"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="UPDATE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/update"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toEndOf="@id/update"
+        android:layout_toRightOf="@id/update"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="DELETE"
+        android:textSize="20sp" />
+</RelativeLayout>

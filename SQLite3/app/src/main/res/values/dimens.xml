@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textView_marginStart">20dp</dimen>
+    <dimen name="textView_marginLeft">10dp</dimen>
+    <dimen name="textView_marginTop">20dp</dimen>
+    <dimen name="editext_marginLeft">20dp</dimen>
+    <dimen name="edittext_marginRight">20dp</dimen>
+    <dimen name="edittext_marginend">20dp</dimen>
+    <dimen name="editext_marginTop">20dp</dimen>
+</resources>
