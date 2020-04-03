@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ThreadDemo1</string>
+    <string-array name="urls">
+        <item>https://wallpaperplay.com/walls/full/f/b/7/239980.jpg</item>
+        <item>https://wallpaperplay.com/walls/full/9/6/d/239982.jpg</item>
+        <item>https://wallpaperplay.com/walls/full/3/f/0/239989.jpg</item>
+        <item>https://wallpaperplay.com/walls/full/4/d/b/239996.jpg</item>
+        <item>https://wallpaperplay.com/walls/full/b/c/3/240013.jpg</item>
+    </string-array>
+    <string-array name="list">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+    </string-array>
+</resources>
